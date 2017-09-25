@@ -1,9 +1,8 @@
 {
-  "name": "composerize3",
-  "version": "3.0.0",
-  "homepage": "http://composerize.com",
+  "name": "composerize-website",
+  "homepage": "https://composerize.com",
   "dependencies": {
-    "composerize": "1.0.0-alpha.7",
+    "composerize": "1.0.0-alpha.8",
     "html5-boilerplate": "^6.0.0",
     "normalize.css": "^7.0.0",
     "react": "^15.5.4",

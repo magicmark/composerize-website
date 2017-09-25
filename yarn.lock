@@ -1522,12 +1522,13 @@ commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
 
-composerize@1.0.0-alpha.7:
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/composerize/-/composerize-1.0.0-alpha.7.tgz#8c6ccf2de4cdecffe47cb6fc91f3b9316af8dded"
+composerize@1.0.0-alpha.8:
+  version "1.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/composerize/-/composerize-1.0.0-alpha.8.tgz#26353a7737e4e9a6bec6ef4ec07a80351ce12006"
   dependencies:
+    deepmerge "^1.5.2"
     spawn-args "^0.2.0"
-    yamljs "^0.2.10"
+    yamljs "^0.3.0"
 
 compressible@~2.0.10:
   version "2.0.11"
@@ -1886,6 +1887,10 @@ deep-extend@~0.4.0:
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
+
+deepmerge@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
 
 default-require-extensions@^1.0.0:
   version "1.0.0"
@@ -5257,8 +5262,8 @@ react-error-overlay@^1.0.10:
     source-map "0.5.6"
 
 react-portal-tooltip@^1.1.5:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-portal-tooltip/-/react-portal-tooltip-1.2.0.tgz#d5407b46fa4866ffde5e070d45721584f819d0b4"
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-portal-tooltip/-/react-portal-tooltip-1.3.0.tgz#85b89d1f141a60a46dd02b8843e6a819c4539fa1"
   dependencies:
     object-assign "^4.0.1"
 
@@ -6663,9 +6668,9 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
-yamljs@^0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/yamljs/-/yamljs-0.2.10.tgz#481cc7c25ca73af59f591f0c96e3ce56c757a40f"
+yamljs@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/yamljs/-/yamljs-0.3.0.tgz#dc060bf267447b39f7304e9b2bfbe8b5a7ddb03b"
   dependencies:
     argparse "^1.0.7"
     glob "^7.0.5"
