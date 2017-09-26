@@ -5,7 +5,7 @@
     "composerize": "1.0.0-alpha.8",
     "html5-boilerplate": "^6.0.0",
     "normalize.css": "^7.0.0",
-    "react": "^15.5.4",
+    "react": "^16.0.0",
     "react-copy-to-clipboard": "^5.0.0",
     "react-dom": "^15.5.4",
     "react-portal-tooltip": "^1.1.5",
