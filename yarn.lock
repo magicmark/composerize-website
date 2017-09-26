@@ -1522,9 +1522,9 @@ commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
 
-composerize@1.0.0-alpha.10:
-  version "1.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/composerize/-/composerize-1.0.0-alpha.10.tgz#16bfc089fd565273a7a016b27f2d2621b5d7208c"
+composerize@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/composerize/-/composerize-1.0.1.tgz#09fa8a62cdc9c33bbe34f4111a66036e3f04d547"
   dependencies:
     deepmerge "^1.5.2"
     yamljs "^0.3.0"
