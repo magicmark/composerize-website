@@ -29,13 +29,22 @@ export default () => (
     <Title>$ composerize</Title>
     <Buttons>
       <Link href="https://github.com/magicmark/composerize">
-        <img src="https://img.shields.io/github/stars/magicmark/composerize.svg?style=social&label=Star" />
+        <img
+          src="https://img.shields.io/github/stars/magicmark/composerize.svg?style=social&label=Star"
+          alt="github"
+        />
       </Link>
       <Link href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fcomposerize.com%2F+-+A+nifty+tool+for+converting+docker+run+commands+into+docker-compose+files%21">
-        <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
+        <img
+          src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"
+          alt="twitter"
+        />
       </Link>
       <Link href="https://travis-ci.org/magicmark/composerize">
-        <img src="https://img.shields.io/travis/magicmark/composerize/master.svg" />
+        <img
+          src="https://img.shields.io/travis/magicmark/composerize/master.svg"
+          alt="travis"
+        />
       </Link>
     </Buttons>
   </Container>
