@@ -11,39 +11,32 @@ const Container = styled.div`
 
 const Title = styled.div`
   display: inline-block;
-  margin: 14px 20px;
-  font-family: 'Ubuntu Mono', monospace;
+  margin: 14px 50px;
+  font-family: "Ubuntu Mono", monospace;
   font-size: 40px;
 `;
 
 const Buttons = styled.div`
   position: absolute;
   bottom: 7px;
-  right: 10px;
+  right: 50px;
 `;
 
-const GitHubIFrame = styled.iframe`
-  overflow: none
-  width: 80px;
-  height: 20px;
-  border: 0;
-  margin-right: 5px;
-`;
+const Link = styled.a`margin-left: 7px;`;
 
 export default () => (
-    <Container>
-        <Title>$ composerize</Title>
-        <Buttons>
-            <GitHubIFrame src="https://ghbtns.com/github-btn.html?user=magicmark&repo=composerize&type=star&count=true" />
-            <a
-                href="https://twitter.com/share"
-                className="twitter-share-button"
-                data-url="http://composerize.com"
-                data-text="Turn arbitrary docker run commands into docker-compose files!"
-                data-dnt="true"
-            >
-                Tweet
-            </a>
-        </Buttons>
-    </Container>
+  <Container>
+    <Title>$ composerize</Title>
+    <Buttons>
+      <Link href="https://github.com/magicmark/composerize">
+        <img src="https://img.shields.io/github/stars/magicmark/composerize.svg?style=social&label=Star" />
+      </Link>
+      <Link href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fcomposerize.com%2F+-+A+nifty+tool+for+converting+docker+run+commands+into+docker-compose+files%21">
+        <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
+      </Link>
+      <Link href="https://travis-ci.org/magicmark/composerize">
+        <img src="https://img.shields.io/travis/magicmark/composerize/master.svg" />
+      </Link>
+    </Buttons>
+  </Container>
 );
