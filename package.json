@@ -8,7 +8,7 @@
     "react": "^15.5.4",
     "react-copy-to-clipboard": "^5.0.0",
     "react-dom": "^15.5.4",
-    "react-portal-tooltip": "^1.1.5",
+    "react-portal-tooltip": "^2.0.0",
     "styled-components": "^2.1.2"
   },
   "devDependencies": {
