@@ -4,7 +4,7 @@
   "dependencies": {
     "composerize": "1.0.1",
     "html5-boilerplate": "^6.0.0",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.0",
     "react": "^15.5.4",
     "react-copy-to-clipboard": "^5.0.0",
     "react-dom": "^15.5.4",
