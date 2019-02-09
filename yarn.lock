@@ -3095,9 +3095,10 @@ html-webpack-plugin@2.29.0:
     pretty-error "^2.0.2"
     toposort "^1.0.0"
 
-html5-boilerplate@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/html5-boilerplate/-/html5-boilerplate-6.0.1.tgz#2243f5782d8138f835292d00e3639cd62caedf5a"
+html5-boilerplate@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/html5-boilerplate/-/html5-boilerplate-7.0.0.tgz#139eefb55b18c0873cf41f953579b01f4e1cb166"
+  integrity sha512-T7ph/VGa9wwDrtmJqjBxwPXnTuQZO2or56Q8VC1DCQwHsBdYAvSe7sT1SBAgjPSHNoRN5nZDnWPJpn4R0Dj+/g==
 
 htmlparser2@~3.3.0:
   version "3.3.0"
