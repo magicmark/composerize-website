@@ -44,7 +44,6 @@ export default class Copy extends Component {
     }
 
     onCopy() {
-        console.log("copieddfsdf");
         this.setState({ copied: true });
     }
 
