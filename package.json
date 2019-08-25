@@ -15,10 +15,10 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "yarn create-env-file && react-scripts start",
+    "build": "yarn create-env-file && react-scripts build",
+    "test": "yarn create-env-file && react-scripts test --env=jsdom",
+    "create-env-file": "echo REACT_APP_COMPOSERIZE_VERSION=$(yarn info composerize version --json | jq .data) > .env"
   },
   "browserslist": {
     "production": [
