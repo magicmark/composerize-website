@@ -2,7 +2,7 @@
   "name": "composerize-website",
   "homepage": "https://composerize.com",
   "dependencies": {
-    "composerize": "1.0.1",
+    "composerize": "1.0.4",
     "html5-boilerplate": "^7.2.0",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
@@ -12,7 +12,7 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "react-scripts": "3.1.0"
+    "react-scripts": "3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
