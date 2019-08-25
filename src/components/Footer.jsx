@@ -24,7 +24,7 @@ const Item = styled.li`
 export default () => (
     <Section border>
         <Container>
-            <Item>Composerize</Item>
+            <Item>Composerize (built with v{process.env.REACT_APP_COMPOSERIZE_VERSION})</Item>
             <Item>
                 <a
                     rel="noopener noreferrer"
