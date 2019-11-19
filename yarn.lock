@@ -4861,10 +4861,10 @@ html-webpack-plugin@4.0.0-beta.5:
     tapable "^1.1.0"
     util.promisify "1.0.0"
 
-html5-boilerplate@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/html5-boilerplate/-/html5-boilerplate-7.2.0.tgz#83454a29a4a57b8577e24256230068f4bd084b9e"
-  integrity sha512-hakddjRFem1aPrJH3EzMK9xJEMeQWl/Mr6oXIElhtwwIa245fYXG7+od9BquvRjyFjAj3Pxafg3F1ItW8F9Y5Q==
+html5-boilerplate@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/html5-boilerplate/-/html5-boilerplate-7.3.0.tgz#263af972835d4536954424fbaabaa68bac586119"
+  integrity sha512-IHC/FzedeOweuJrU3rrhyJ9apnSPW5NGLS6562ryz0nXw9QtamT13SQ88/6PBkHhzfdy+gx0tqmO0yuwPpr00g==
 
 htmlparser2@~3.3.0:
   version "3.3.0"
