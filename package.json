@@ -3,7 +3,7 @@
   "homepage": "https://composerize.com",
   "dependencies": {
     "composerize": "1.0.4",
-    "html5-boilerplate": "^7.2.0",
+    "html5-boilerplate": "^7.3.0",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-copy-to-clipboard": "^5.0.1",
